@@ -36,6 +36,11 @@
             <!-- Body Text -->
             <p style="font-size: 16px; color: #333333; line-height: 1.5; margin: 20px 0;">
               {{body}}
+              
+              <div>
+                {{footer}}
+              </div>
+              
             </p>
 
             <!-- Button -->
@@ -105,4 +110,3 @@
 
 </body>
 </html>
- 
