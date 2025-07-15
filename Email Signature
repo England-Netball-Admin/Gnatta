@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gnatta_Email_Template</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: 'Quicksand', Arial, sans-serif;">
+
+<!-- Full Width Wrapper -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="background-color: #f4f4f4;">
+  <tr>
+    <td align="center">
+      <!-- Main Container -->
+      <table width="600" cellpadding="20" cellspacing="0" border="0" align="center" style="max-width: 600px; width: 100%; background-color: #ffffff; border: 1px solid #dddddd;">
+        <tr>
+          <td align="center" style="padding: 20px; font-family: 'Quicksand', Arial, sans-serif;">
+            <!-- Logo with link -->
+<a href="https://englandnetball.co.uk" target="_blank" aria-label="Visit the England Netball Website" style="display: inline-block;">
+              <img
+                src="https://raw.githubusercontent.com/England-Netball-Admin/public-images/a654e47106837e6a9262147a557e45c17ac8e619/EN_LOGO%202.svg"
+                alt="England Netball Logo"
+                width="50"
+                style="display: block; max-width: 100%; height: auto; border: 0; margin-bottom: 20px;"
+                role="img"
+                aria-label="England Netball Logo"
+              >
+</a>
+
+            <!-- Heading -->
+            <h1 style="font-size: 24px; color: #111111; margin: 0; font-weight: 600;">England Netball Support</h1>
+
+            <!-- Body Text -->
+            <p style="font-size: 16px; color: #333333; line-height: 1.5; margin: 20px 0;">
+              {{body}}
+            </p>
+
+            <!-- Button -->
+            <a href="https://help.centre.englandnetball.co.uk"
+              target="_blank"
+              aria-label="Visit the England Netball Knowledge Centre"
+              style="display: inline-block; padding: 12px 24px; background-color: #191919; color: #ffffff; text-decoration: none; border-radius: 8px; font-size: 16px; font-weight: 600;">
+              Knowledge Centre
+            </a>
+
+            <!-- Social Icons -->
+            <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top: 30px;">
+              <tr>
+                <td align="center" style="padding: 0 5px;">
+                  <a href="https://x.com/englandnetball" target="_blank" aria-label="Follow us on X">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" width="24" height="24" alt="X logo" style="display: block; border: 0;" />
+                  </a>
+                </td>
+                <td align="center" style="padding: 0 5px;">
+                  <a href="https://www.facebook.com/englandnetball/" target="_blank" aria-label="Follow us on Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="24" height="24" alt="Facebook logo" style="display: block; border: 0;" />
+                  </a>
+                </td>
+                <td align="center" style="padding: 0 5px;">
+                  <a href="https://www.instagram.com/englandnetball/" target="_blank" aria-label="Follow us on Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="24" height="24" alt="Instagram logo" style="display: block; border: 0;" />
+                  </a>
+                </td>
+                <td align="center" style="padding: 0 5px;">
+                  <a href="https://www.tiktok.com/@englandnetball" target="_blank" aria-label="Follow us on TikTok">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" width="24" height="24" alt="TikTok logo" style="display: block; border: 0;" />
+                  </a>
+                </td>
+                <td align="center" style="padding: 0 5px;">
+                  <a href="https://www.linkedin.com/company/england-netball/" target="_blank" aria-label="Follow us on LinkedIn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="24" height="24" alt="LinkedIn logo" style="display: block; border: 0;" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+      <!-- Promo Banner with link -->
+      <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 600px; width: 100%; background-color: #ffffff;">
+        <tr>
+          <td align="center">
+<a href="https://netballher.co.uk/" target="_blank" aria-label="Visit the NETBALLHer website" style="display: inline-block;">
+              <img
+                src="https://github.com/England-Netball-Admin/public-images/blob/main/NetballHer%20email%20signature%20banner_Email%20Signature.jpg?raw=true"
+                alt="NETBALLHer Promotional Banner"
+                width="600"
+                style="display: block; width: 100%; max-width: 100%; height: auto; border: 0;"
+                role="img"
+                aria-label="NETBALLHer Promotional Banner"
+              >
+</a>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+ 
